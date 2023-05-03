@@ -28,10 +28,32 @@ bottom: 100px;
     color: #003366;
 
 }
+.menu-opcoes a:hover{
+    color: #007dc6;
+}
+
+.menu-opcoes a:active{
+    color: red;
+}
+
 
 body {
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-departamentos li ul{
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li{
+    background-color: #dcdcdc;
+}
+.menu-departamentos li li a::before{
+    content: '- ';
 }
 .container {
 margin: 0 auto;
